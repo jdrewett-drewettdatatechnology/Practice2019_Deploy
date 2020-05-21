@@ -38,7 +38,28 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUGg6gclnE06UgE7+WWzWtwAAAAACAAAAAAAQZgAAAAEAACAAAADwwnev3PIby+qafwqX9GIh6BI34XLSskVetegpKF7YHAAAAAAOgAAAAAIAACAAAAASpD8E2zYmdbhSOr6HrbsnEH26VY1PnDlzr4SFQoZpT4AAAABgiwN8zs4boxXt/5i5cU51NwNZ7rWW3rmJuI416m793CIUpApO/bKm90VVHj9idQnfdhM1iNndiqwRh/peCEVjLhu1PmNFGVw/ESsYcN9v2AwlyRkPx7WQg0Nfjoad9UFlVjpF+S42+0z4ECLhaYPUrQa/rq76D7IFsscWNrKIOUAAAADkoOKQjwRY0bxzyn42/OWkLehHJsF2Ei8wK7VN5v20fOD3YY1pTkd/Sc335FSynmijweIBAkvHzgtZk0lpiZy5</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUGg6gclnE06UgE7+WWzWtwAAAAACAAAAAAAQZgAAAAEAACAAAAAVjXfzJyTDTN5BBTv9cuVGSl9tqpNPauDrrsEOIr5yLAAAAAAOgAAAAAIAACAAAABORbp/RObIfhvOrDfWKV2hW9ICFqjSOiOAkBxXxMMYJYAAAADfmA32JyiDbXugfe9Xr8hAUda+mKEjUon+rUR6OXpKXZIq+hlL2hw+ugAvMtW670xrUWvux/TC+4RyOl+eLyS0es0vHdZQlYkIRtMRzbF2VRS74nsuAUmRBuAQIzz3VNSD/VkLqGCDvDxUi0JXt7T7GVgQoSnA61B2Lf0UaW/P3kAAAADN0kRc7xRAns6MmGOINhQ+zrqGI/G2XIrBJ55kxZ1ZzvjhvxARJnQP8M/FCXfUJ9NI2WrPeu8oi3kbiSZl5UXG</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="ExcelConnectionManager_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{8f857114-ee94-4488-8489-695e5a964cbd}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\jdrewett\Desktop\SSIS\Practice2019_Deploy\Files\Customer.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
