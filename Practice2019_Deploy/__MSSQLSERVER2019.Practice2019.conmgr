@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="__MSSQLSERVER2019.Practice2019"
+  DTS:DTSID="{EF7FF10D-2EE6-4735-ABFA-21B7299C7D37}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Password]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Server]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=.\MSSQLSERVER2019;Initial Catalog=Practice2019;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUGg6gclnE06UgE7+WWzWtwAAAAACAAAAAAAQZgAAAAEAACAAAAAfRQTY5iAWkDLyfgDKlG/IYqqkwOhqn20ClhzR0nzEuQAAAAAOgAAAAAIAACAAAABSa/H6NBEh+8dxLchQUALpe8Y2nGsTyX8NYZVc66ffroAAAAAfiF/0cPkVp3Xzn0VKJb/6He8mP7oqNuf3To+eQkR9Um6mXnkU9OvUylEVgSljAgLhNgPWDKEOPeBh53w1YUblr4E3FtW4xZx1B06suFAqlolDIOvb7/gvo4LF2/0/GGyqUHnNy7EL5IW2aazb0twXNBL0wFKIzOlreA+HuraCaEAAAADpp333gA4nDPRcKGBeGHX3/osKA/wLD0WA7IzyCa0Z92jU/ugF/nrU4vtsh7ePvYZYv0eitYy/HhxArXKjWmbr</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
